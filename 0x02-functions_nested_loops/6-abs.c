@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * _abs - function name
- * Description: computes absolute value of an integer
+ * _abs - function that computes absolute value of an integer
+ * @r: parameter of type int 
  * Return: absolute value of integer
  */
 
 int _abs(int r)
 {
-    if (r >= 0)
-    {
-        return (r);
-    }
-    else
-    {
-        return (r * (-1));
-    }
+	if (r >= 0)
+	{
+	return (r);
+	}
+		else
+		{	
+		return (r * (-1));
+		}
 }
